@@ -172,6 +172,7 @@ return [
         /*
          * Canvas Service Providers...
          */
+        App\Providers\PluginServiceProvider::class,
         Proengsoft\JsValidation\JsValidationServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         TalvBansal\MediaManager\Providers\MediaManagerServiceProvider::class,

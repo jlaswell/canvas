@@ -49,7 +49,8 @@ elixir(function (mix) {
     // Application JS Files
     mix.scripts([
         'functions.js',
-        'bootstrap-growl.min.js'
+        'bootstrap-growl.min.js',
+        'backend/**/*.js'
     ], 'public/js/app.js');
 
     // Copy Media Manager SVG images into the public directory

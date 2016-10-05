@@ -9,3 +9,17 @@
 
 // Default Canvas Theme
 @import "core";
+
+.plugin-chevron {
+  transform: rotate(-360deg);
+  transition: transform 400ms ease;
+}
+.plugin-chevron__collapsed {
+  transform: rotate(-180deg);
+  transition: transform 400ms ease;
+}
+.plugin-menu {
+  @extend .main-menu;
+  margin: 0 20px 0;
+  border-left: 4px solid $brand-primary;
+}
